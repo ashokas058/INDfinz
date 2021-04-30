@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/tag_menu_dashbord"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:contentDescription=" "
+        app:showAsAction="withText"></item>
+<item android:id="@+id/tag_menu_goals"
+     android:title="Goals"
+    android:icon="@drawable/ic_baseline_golf_course_24"
+    android:contentDescription="plan your Goals"
+    app:showAsAction="withText"></item>
+    <item android:id="@+id/tag_menu_placeholder"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/tag_menu_advisory"
+        android:title="Advisory"
+        android:icon="@drawable/ic_baseline_track_changes_24"
+        android:contentDescription=" "
+        app:showAsAction="withText"></item>
+    <item android:id="@+id/tag_menu_INDcoins"
+        android:title="INDcoins"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:contentDescription=" "
+        app:showAsAction="withText"></item>
+
+
+</menu>
